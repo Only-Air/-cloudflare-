@@ -1,0 +1,14 @@
+name = "zhounan-enrollment-assistant"
+main = "worker.js"
+compatibility_date = "2024-12-01"
+
+# 部署后需通过 wrangler secret 设置以下变量:
+#   wrangler secret put DEEPSEEK_API_KEY
+#   wrangler secret put IMA_CLIENT_ID
+#   wrangler secret put IMA_API_KEY
+
+[vars]
+# 本地开发时可在此填入测试值（不要提交到 git）
+# DEEPSEEK_API_KEY = "sk-xxx"
+# IMA_CLIENT_ID = "xxx"
+# IMA_API_KEY = "xxx"
